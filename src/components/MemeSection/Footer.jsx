@@ -16,12 +16,12 @@ const Footer = () => {
         </h2>
 
         {/* Text Section */}
-        <h2 className="max-w-full md:max-w-4xl mx-auto text-white mt-8 text-3xl md:text-4xl font-bold text-center py-4 flex justify-center bg-[#c2000e] rounded-full border-4 border-[#fc3e4b]">
+        <h2 className="max-w-full md:max-w-4xl mx-auto text-white mt-8 text-sm md:text-2xl font-bold text-center py-4 flex justify-center bg-[#c2000e] rounded-full border-4 border-[#fc3e4b]">
           SDKJABDKJBJASBDIADWHIESDLKNASDBMDKAS
         </h2>
 
         {/* Navbar */}
-        <div className="mt-10">
+        <div className="mt-2">
           <Navbar />
         </div>
       </div>
