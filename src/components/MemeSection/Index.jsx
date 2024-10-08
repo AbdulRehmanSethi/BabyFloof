@@ -1,13 +1,13 @@
-import SectionDivider from "./SectionDivider";
+// import SectionDivider from "./SectionDivider";
 import Memes from "./Memes";
 // import CursorAnimation from "../home/CursorAnimation";
 
 const Index = () => {
   return (
     <div>
-      <div className="sm:pt-20 lg:pt-0 md:mt-80">
+      <div className="sm:pt-20 md:pt-0 md:mt-16 lg:mt-80">
         {/* <CursorAnimation /> */}
-        <SectionDivider />
+        {/* <SectionDivider /> */}
         <Memes />
       </div>
     </div>
