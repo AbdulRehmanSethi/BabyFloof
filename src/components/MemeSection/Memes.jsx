@@ -28,7 +28,7 @@ function Memes() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 3,
         },
       },
       {
@@ -65,9 +65,9 @@ function Memes() {
   ];
 
   return (
-    <div className="max-w-screen-xl mx-auto px-4 my-16 sm:px-6 lg:px-8">
+    <div className="mt-60 lg:mt-0 max-w-screen-xl mx-auto px-4 my-16 sm:px-6 lg:px-8 lg:pt-60 ">
       <h2 className="text-3xl md:text-4xl font-bold text-center pb-4 flex justify-center">
-        <img src={Meme} alt="Meme Title" className="w-80 h-auto" />
+        <img src={Meme} alt="Meme Title" className="w-52 h-auto" />
       </h2>
 
       <div className="max-w-full mx-auto mt-8">
