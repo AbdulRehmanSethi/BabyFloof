@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <div className="relative">
       <CursorAnimation />{" "}
-      {/* Add the CursorAnimation component for the entire page */}
       <div
         className="bg-cover bg-center min-h-screen"
         style={{
