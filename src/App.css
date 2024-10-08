@@ -1,0 +1,24 @@
+.containers {
+  position: relative;
+  /* width: 100vw;   */
+  /* height: 100vh; */
+  /* overflow: hidden; Ensure particles don't overflow out of the container */
+}
+
+.particle {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  animation: flyAway 1s forwards;
+  z-index: 9999;
+}
+
+@keyframes flyAway {
+  to {
+    transform: translate(var(--dx), var(--dy));
+    opacity: 0;
+  }
+}
